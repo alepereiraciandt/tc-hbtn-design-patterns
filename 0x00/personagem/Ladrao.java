@@ -3,7 +3,7 @@ public class Ladrao extends Personagem{
         super(nome, TipoPersonagem.LADRAO, inteligencia, forca, vigor, resistencia, destreza);
 
         if (getDestreza() < getInteligencia() || getDestreza() < getForca()) {
-            throw new IllegalArgumentException("Atributos invalidos para LADRAO.");
+            throw new IllegalArgumentException("Atributos invalidos para LADRAO");
         }
     }
 

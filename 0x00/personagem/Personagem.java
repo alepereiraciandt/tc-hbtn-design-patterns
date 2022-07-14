@@ -17,7 +17,7 @@ public abstract class Personagem {
         this.destreza = destreza;
     }
 
-    abstract Double getDanoAtaque();
+    public abstract Double getDanoAtaque();
 
     @Override
     public String toString() {

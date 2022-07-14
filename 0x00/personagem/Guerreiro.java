@@ -3,7 +3,7 @@ public class Guerreiro extends Personagem {
         super(nome, TipoPersonagem.GUERREIRO, inteligencia, forca, vigor, resistencia, destreza);
 
         if (getForca() < getInteligencia() || getForca() < getDestreza()) {
-            throw new IllegalArgumentException("Atributos invalidos para GUERREIRO.");
+            throw new IllegalArgumentException("Atributos invalidos para GUERREIRO");
         }
     }
 
