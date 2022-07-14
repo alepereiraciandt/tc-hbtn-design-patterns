@@ -34,7 +34,7 @@ public class PedidoBuilder extends PedidoAbstractBuilder {
         pedido.adicionarItemForaCaixa(item);
     }
 
-    Pedido build() {
+    public Pedido build() {
         return pedido;
     }
 }
